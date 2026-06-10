@@ -35,6 +35,74 @@ Portfolio-Website/
 - Tested in Google Chrome
 - Validated using W3C HTML Validator
 
+- # HTML Concepts Used
+
+## 1. HTML5 Document Structure
+- `<!DOCTYPE html>`
+- `<html>`
+- `<head>`
+- `<body>`
+
+## 2. Semantic HTML Tags
+- `<header>` – Defines the top section of the webpage.
+- `<nav>` – Contains navigation links.
+- `<main>` – Holds the main content.
+- `<section>` – Organizes content into different sections.
+- `<footer>` – Displays copyright information.
+
+## 3. Headings and Paragraphs
+- `<h1>` to `<h3>` – Used for titles and subheadings.
+- `<p>` – Used for writing paragraphs.
+
+## 4. Navigation Links
+- `<a>` – Creates hyperlinks.
+- Internal links using IDs (`#about`, `#skills`, `#contact`).
+- External links to GitHub and LinkedIn.
+
+## 5. Images
+- `<img>` – Displays images.
+- `alt` attribute provides alternative text for accessibility.
+
+## 6. Lists
+### Unordered List
+- `<ul>`
+- `<li>`
+
+### Ordered List
+- `<ol>`
+- `<li>`
+
+## 7. Forms and Input Elements
+- `<form>`
+- `<label>`
+- `<input>`
+- `<textarea>`
+
+## 8. Form Validation Attributes
+- `required`
+- `type="email"`
+- `type="tel"`
+- `placeholder`
+
+## 9. Input Types Used
+- Text input
+- Email input
+- Telephone input
+- Submit button
+- Reset button
+
+## 10. Accessibility Features
+- Proper labels for form elements.
+- Alternative text for images.
+- Semantic HTML structure for better readability.
+
+## 11. Page Organization
+- Use of sections to separate content.
+- Internal navigation for easy access to different parts of the website.
+
+## 12. External Resources
+- Links to GitHub and LinkedIn profiles.
+
 ## Author
 Daksh Malviya
 
