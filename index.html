@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daksh Malviya | Portfolio</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(to right,#4facfe,#00f2fe);
+            color:#333;
+        }
+
+        header{
+            background: #1e293b;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+
+        header h1{
+            font-size:40px;
+        }
+
+        header p{
+            margin-top:10px;
+            color:#d1d5db;
+        }
+
+        nav{
+            margin-top:15px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#38bdf8;
+        }
+
+        section{
+            width:80%;
+            margin:30px auto;
+            background:white;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            color:#2563eb;
+            margin-bottom:15px;
+        }
+
+        h3{
+            color:#9333ea;
+            margin-top:15px;
+        }
+
+        img{
+            border-radius:50%;
+            border:5px solid #3b82f6;
+            margin-bottom:20px;
+        }
+
+        ul li, ol li{
+            margin-left:30px;
+            margin-top:10px;
+        }
+
+        form{
+            margin-top:20px;
+        }
+
+        input, textarea{
+            width:100%;
+            padding:12px;
+            margin-top:8px;
+            margin-bottom:15px;
+            border-radius:8px;
+            border:1px solid gray;
+        }
+
+        input[type="submit"]{
+            background:#2563eb;
+            color:white;
+            border:none;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        input[type="submit"]:hover{
+            background:#1d4ed8;
+        }
+
+        input[type="reset"]{
+            background:#ef4444;
+            color:white;
+            border:none;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        input[type="reset"]:hover{
+            background:#dc2626;
+        }
+
+        a{
+            color:#2563eb;
+        }
+
+        footer{
+            background:#1e293b;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Daksh Malviya</h1>
+        <p>Web Development Beginner | CSE Student</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <img src="images/profile.jpeg"
+                 alt="Profile picture of Daksh Malviya"
+                 width="200">
+
+            <p>
+                Hello! My name is <b>Daksh Malviya</b>. I am a Computer Science Engineering student and a beginner in Web Development. I enjoy learning new technologies and building websites.
+            </p>
+
+            <br>
+
+            <p>
+                My interests include programming, graphic designing, video editing, content creation, and software development.
+            </p>
+
+            <h3>Education</h3>
+
+            <p>
+                🎓 B.Tech in Computer Science Engineering (JUET, Guna)
+            </p>
+
+            <p>
+                📚 12th Standard - Narmada Valley International School, Narmadapuram (CBSE)
+            </p>
+
+            <p>
+                📖 10th Standard - St. Francis Convent School, Budni (CBSE)
+            </p>
+
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <h3>Technical Skills</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Beginner)</li>
+                <li>C Programming</li>
+                <li>C++</li>
+                <li>DSA</li>
+            </ul>
+
+            <h3>Tools</h3>
+
+            <ol>
+                <li>Visual Studio Code</li>
+                <li>GitHub</li>
+                <li>Canva</li>
+            </ol>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <label>Full Name</label>
+                <input
+                type="text"
+                placeholder="Enter your name"
+                required>
+
+                <label>Email Address</label>
+                <input
+                type="email"
+                placeholder="Enter your email"
+                required>
+
+                <label>Phone Number</label>
+                <input
+                type="tel"
+                placeholder="Enter your phone number"
+                required>
+
+                <label>Message</label>
+
+                <textarea rows="5"
+                placeholder="Write your message"
+                required></textarea>
+
+                <input type="submit" value="Send Message">
+                <input type="reset" value="Reset">
+
+            </form>
+
+            <br>
+
+            <h3>Connect With Me</h3>
+
+            <p>
+                🔗 GitHub:
+                <a href="https://github.com/dakshmalviya-x/" target="_blank">
+                    Visit My GitHub
+                </a>
+            </p>
+
+            <br>
+
+            <p>
+                💼 LinkedIn:
+                <a href="https://www.linkedin.com/in/dakshmalviya/" target="_blank">
+                    Visit My LinkedIn
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            © 2026 Daksh Malviya. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
+
