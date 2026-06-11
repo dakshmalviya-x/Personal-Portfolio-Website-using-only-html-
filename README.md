@@ -103,6 +103,91 @@ Portfolio-Website/
 ## 12. External Resources
 - Links to GitHub and LinkedIn profiles.
 
+- # 📅 Progress Tracker
+
+## ✅ Day 1 Task Completed - Setup & Basic Structure
+
+* Installed VS Code
+* Created project folder
+* Created index.html
+* Learned basic HTML structure
+* Added header, main, and footer
+
+### 📚 Concepts Learned
+
+* HTML Boilerplate
+* Semantic Tags
+* Basic Page Structure
+
+---
+
+## ✅ Day 2 Task Completed - Header & Navigation
+
+### Completed Tasks
+
+* Create navigation menu
+* Add internal links
+* Create multiple sections
+
+## 📌 What I Built
+
+* Created website header
+* Added navigation menu
+* Implemented internal navigation links
+* Connected sections using anchor tags
+
+
+---
+
+## ⬜ Day 3 - About Section
+
+### Tasks
+
+* Add personal introduction
+* Use headings & paragraphs
+* Improve content structure
+
+---
+
+## ⬜ Day 4 - Skills Section
+
+### Tasks
+
+* Add skills list
+* Use ordered/unordered lists
+* Organize content properly
+
+---
+
+## ⬜ Day 5 - Contact Form
+
+### Tasks
+
+* Create form
+* Add input fields
+* Add validation attributes
+
+---
+
+## ⬜ Day 6 - Images & Links
+
+### Tasks
+
+* Add profile image
+* Add external links
+* Add alt text
+
+---
+
+## ⬜ Day 7 - Testing & Final Touches
+
+### Tasks
+
+* Test website
+* Fix errors
+* Improve structure
+* Final review
+
 ## Author
 Daksh Malviya
 
